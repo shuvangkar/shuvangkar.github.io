@@ -1,11 +1,9 @@
-title: Your awesome title
+title: Shuvangkar Das
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Shuvangkar Das
+  email: shuvangkarcdas@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi! I am Shuvangkar Das. Currently I am doing my PhD student at Clarkson University.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 

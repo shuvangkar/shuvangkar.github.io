@@ -18,6 +18,10 @@
         </label>
 
         <div class="trigger">
+          <a class="page-link" href="https://blog.shuvangkardas.com/">Blog</a>
+          <a class="page-link" href="https://www.youtube.com/ShuvangkarDas/">YouTube</a>
+          <a class="page-link" href="http://newsletter.shuvangkardas.com/">NewsLetter</a>
+          <a class="page-link" href="https://portfolio.shuvangkardas.com/">Portfolio</a>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}

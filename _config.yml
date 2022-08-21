@@ -3,7 +3,7 @@ author:
   name: Shuvangkar Das
   email: shuvangkarcdas@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Hi! I am Shuvangkar Das. Currently I am doing my PhD student at Clarkson University.
+  I'm Shuvangkar Das, full-time Researcher and hobbyist YouTuber and Blogger
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -56,3 +56,8 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+header_pages:
+  - blog.md
+  - about.md
+  - newsletter.md

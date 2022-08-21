@@ -8,17 +8,16 @@
 layout: home
 ---
 ![Shuvangkar Das](/assets/images/shuvangkardas.jpg)
-### I'm **Shuvangkar Das**, full-time **[Researcher](https://portfolio.shuvangkar.com)** and hobbyist  **[YouTuber](https://www.youtube.com/ShuvangkarDas)** and **[Blogger](https://blog.shuvangkar.com/)**.
-
+### I'm Shuvangkar Das, full-time **[Researcher](https://portfolio.shuvangkardas.com)** and hobbyist  **[YouTuber](https://www.youtube.com/ShuvangkarDas)** and **[Blogger](https://blog.shuvangkardas.com/)**
 ---
 ## What to Know More?
-🎓 I am doing my PhD in at Clarkson University, NY and working as a RA at SPSC Lab. 
+🎓 I am doing my PhD at Clarkson University, NY and working as a RA at SPSC Lab. 
 <br>
-🎥 In weekend, I love to cook, write blogs and make YouTube videos. 
+🎥 In weekend, I love to cook, write [blog](https://blog.shuvangkardas.com/) and make [YouTube](https://www.youtube.com/ShuvangkarDas) video. 
 <br>
 📚 I love to read books daily and spend time with family and friends.
 <br>
-💌 I write productivity tips and my thoughts to improve life and carrier in [My Newsletter]().
+💌 I write productivity tips and my thoughts to improve life and carrier in [My Newsletter](http://newsletter.shuvangkardas.com/).
 
 Sign up to get tips every week.
 

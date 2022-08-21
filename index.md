@@ -8,7 +8,7 @@
 layout: home
 ---
 ![Shuvangkar Das](/assets/images/shuvangkardas.jpg)
-### I'm Shuvangkar Das, full-time **[Researcher](https://portfolio.shuvangkardas.com)** and hobbyist  **[YouTuber](https://www.youtube.com/ShuvangkarDas)** and **[Blogger](https://blog.shuvangkardas.com/)**
+### Hi! I'm Shuvangkar Das, full-time **[Researcher](https://portfolio.shuvangkardas.com)** and hobbyist  **[YouTuber](https://www.youtube.com/ShuvangkarDas)** and **[Blogger](https://blog.shuvangkardas.com/)**
 ---
 ## What to Know More?
 🎓 I am doing my PhD at Clarkson University, NY and working as a RA at SPSC Lab. 

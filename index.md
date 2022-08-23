@@ -19,17 +19,8 @@ layout: home
 <br>
 💌 I write productivity tips and my thoughts to improve life and carrier in [My Newsletter](http://newsletter.shuvangkardas.com/).
 
-Sign up to get tips every week.
-<div id="revue-embed">
-    <form action="https://newsletter.shuvangkardas.com/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
-        <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
-        <div class="revue-form-actions">
-            <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
-        </div>
-    </form>
-</div>
 
-
+{%- include newsletter.html -%}
 
 ---
 ## What I'm Doing Now?

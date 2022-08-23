@@ -5,10 +5,10 @@
   }
   body{
       background-color: #f7f7f7;
-      padding: 100px 0
+      /* padding: 0px 0 */
   }
   #revue-form{
-      max-width: 600px;
+      max-width: 800px;
       margin: 0 auto;
       margin-bottom: 10px;
       background-color: #fff;

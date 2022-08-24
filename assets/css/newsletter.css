@@ -8,14 +8,7 @@
       /* padding: 0px 0 */
   }
 
-  @media only screen and (max-width: 768px){
-    #revue-form{
-   display:block;
-   }
-   #member_submit{
-   width:100%;
-   }
-   }
+ 
 
 
   #revue-form{
@@ -50,3 +43,12 @@
       font-weight: 500;
       flex-shrink: 0;
   }
+
+  @media only screen and (max-width: 768px){
+    #revue-form{
+   display:block;
+   }
+   #member_submit{
+   width:100%;
+   }
+   }

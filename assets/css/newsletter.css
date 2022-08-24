@@ -7,12 +7,23 @@
       background-color: #f7f7f7;
       /* padding: 0px 0 */
   }
+
+  @media only screen and (max-width: 768px){
+    #revue-form{
+   display:block;
+   }
+   #member_submit{
+   width:100%;
+   }
+   }
+
+
   #revue-form{
       max-width: 800px;
       margin: 0 auto;
       margin-bottom: 10px;
       background-color: #fff;
-      border: 1px solid #fff;
+      border: 1px solid rgb(225, 219, 219);
       border-radius: 5px;
       padding: 5px;
       display: flex;

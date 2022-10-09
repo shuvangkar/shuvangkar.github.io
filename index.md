@@ -7,7 +7,7 @@
 #
 layout: home
 ---
-![Shuvangkar Das](/assets/images/shuvangkardas_cover1.jpg)
+![Shuvangkar Das](/assets/images/Shuvangkar-Das-2022-10-09.jpg)
 ### Hi! I'm Shuvangkar Das, full-time **[Researcher](https://portfolio.shuvangkardas.com)** and hobbyist  **[YouTuber](https://www.youtube.com/ShuvangkarDas)** and **[Blogger](https://blog.shuvangkardas.com/)**
 ---
 ## What to Know More?

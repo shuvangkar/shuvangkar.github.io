@@ -9,124 +9,34 @@
 </div> -->
 
 
-<div class="embed-example">
-            <!-- START OF EMBEDDABLE NEWSLETTER CODE -->
-            <div id="newsletter-embed">
-                <form id="newsletter-form" style="max-width: 400px; margin: 0 auto;">
-                    <div style="margin-bottom: 12px;">
-                        <input 
-                            type="text" 
-                            name="name" 
-                            placeholder="Your name (optional)"
-                            style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px; box-sizing: border-box;"
-                        >
-                    </div>
-                    <div style="margin-bottom: 12px;">
-                        <input 
-                            type="email" 
-                            name="email" 
-                            placeholder="Your email address..." 
-                            required
-                            style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px; box-sizing: border-box;"
-                        >
-                    </div>
-                    <div style="text-align: center;">
-                        <button 
-                            type="submit"
-                            style="background: #007cba; color: white; padding: 12px 24px; border: none; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.3s;"
-                            onmouseover="this.style.background='#005a87'"
-                            onmouseout="this.style.background='#007cba'"
-                        >
-                            Get Weekly Tips
-                        </button>
-                    </div>
-                </form>
-                
-                <div id="newsletter-message" style="margin-top: 15px; padding: 10px; border-radius: 5px; display: none; text-align: center; font-weight: bold;"></div>
-            </div>
-            
-            <script>
-                // REPLACE WITH YOUR APPS SCRIPT URL
-                const NEWSLETTER_API_URL = 'https://script.google.com/macros/s/AKfycbwXrROdo03o4kM6h-oRLC-ZrZ8I9O9Hrp6Aimhf_2nmr2_8l8byjDCTMmwV21dhUrhL/exec';
-                
-                
-                // const NEWSLETTER_API_URL = 'https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbwXrROdo03o4kM6h-oRLC-ZrZ8I9O9Hrp6Aimhf_2nmr2_8l8byjDCTMmwV21dhUrhL/exec';
-
-                document.getElementById('newsletter-form').addEventListener('submit', async function(e) {
-                    e.preventDefault();
-                    
-                    const form = e.target;
-                    const formData = new FormData(form);
-                    const submitButton = form.querySelector('button[type="submit"]');
-                    const messageDiv = document.getElementById('newsletter-message');
-                    
-                    // Get form values
-                    const email = formData.get('email');
-                    const name = formData.get('name');
-                    
-                    // Validate email
-                    if (!email || !email.includes('@')) {
-                        showMessage('Please enter a valid email address', 'error');
-                        return;
-                    }
-                    
-                    // Show loading state
-                    submitButton.disabled = true;
-                    submitButton.textContent = 'Subscribing...';
-                    messageDiv.style.display = 'none';
-                    
-                    try {
-                        const response = await fetch(NEWSLETTER_API_URL, {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json',
-                            },
-                            body: JSON.stringify({
-                                email: email,
-                                name: name || ''
-                            })
-                        });
-                        
-                        const result = await response.json();
-                        
-                        if (result.success) {
-                            showMessage('🎉 Successfully subscribed!', 'success');
-                            form.reset();
-                        } else {
-                            showMessage(result.message || 'Something went wrong', 'error');
-                        }
-                    } catch (error) {
-                        showMessage('Network error. Please try again.', 'error');
-                    } finally {
-                        // Reset button
-                        submitButton.disabled = false;
-                        submitButton.textContent = 'Get Weekly Tips';
-                    }
-                });
-                
-                function showMessage(text, type) {
-                    const messageDiv = document.getElementById('newsletter-message');
-                    messageDiv.textContent = text;
-                    messageDiv.style.display = 'block';
-                    
-                    if (type === 'success') {
-                        messageDiv.style.background = '#d4edda';
-                        messageDiv.style.color = '#155724';
-                        messageDiv.style.border = '1px solid #c3e6cb';
-                    } else {
-                        messageDiv.style.background = '#f8d7da';
-                        messageDiv.style.color = '#721c24';
-                        messageDiv.style.border = '1px solid #f5c6cb';
-                    }
-                    
-                    // Auto-hide success messages
-                    if (type === 'success') {
-                        setTimeout(() => {
-                            messageDiv.style.display = 'none';
-                        }, 5000);
-                    }
-                }
-            </script>
-            <!-- END OF EMBEDDABLE NEWSLETTER CODE -->
-        </div>
+<div id="newsletter-embed">
+    <form action="https://script.google.com/macros/s/AKfycbyuvBSFKTLyhVk6nSOfVgmTckNSnC2Fm0KN4p37PCc482ys7XSMX34YCsDT7z0a1Bey/exec" method="post" target="_blank" style="max-width: 400px; margin: 0 auto;">
+        <input type="hidden" name="source" value="shuvangkardas.com">
         
+        <div style="margin-bottom: 12px;">
+            <input 
+                type="text" 
+                name="name" 
+                placeholder="Your name (optional)"
+                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px; box-sizing: border-box;"
+            >
+        </div>
+        <div style="margin-bottom: 12px;">
+            <input 
+                type="email" 
+                name="email" 
+                placeholder="Your email address..." 
+                required
+                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px; box-sizing: border-box;"
+            >
+        </div>
+        <div style="text-align: center;">
+            <button 
+                type="submit"
+                style="background: #007cba; color: white; padding: 12px 24px; border: none; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer;"
+            >
+                Get Weekly Tips
+            </button>
+        </div>
+    </form>
+</div>

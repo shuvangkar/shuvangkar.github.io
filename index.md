@@ -27,7 +27,7 @@ Sign up to get tips every week.
 
 
 
-## 🚀My Projects & Tools
+## My Projects & Tools
 Explore some of the free tools and resources I've created:
 - **[DasPress](/daspress)** - A 1-click Obsidian-to-blog publishing tool.
 - **[Obsidian Starter Kit](/obsidian-starter-kit)** - A ready-to-use Obsidian vault for beginners

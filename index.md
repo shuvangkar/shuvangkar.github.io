@@ -25,11 +25,10 @@ A full-time **[Researcher](https://portfolio.shuvangkardas.com)** and hobbyist  
 Sign up to get tips every week.
 {%- include newsletter.html -%}
 
+---
 ## 🚀My Projects & Tools
-
 Explore some of the tools and resources I've created:
 - **[DasPress](/daspress)** - A 1-click Obsidian-to-blog publishing tool.
-- **[Obsidian Starter Kit](/obsidian-starter-kit)** - Complete setup guide and templates for 
-Obsidian note-taking
+- **[Obsidian Starter Kit](/obsidian-starter-kit)** - A ready-to-use Obsidian vault for beginners
 - **[pySynphasor](/pySynphasor/)** - Python module for analyzing IEEE C37.118 packets. 
 
